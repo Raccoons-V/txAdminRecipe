@@ -288,15 +288,15 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-towjob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-streetraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-streetraces
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-streetraces
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-streetraces
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-storerobbery
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-storerobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
@@ -328,20 +328,20 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-cityhall
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-truckrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-truckrobbery
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-truckrobbery
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-pawnshop
-    ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-pawnshop
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-pawnshop
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-taxijob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-taxijob
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-taxijob
 
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
@@ -353,18 +353,18 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-newsjob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-jewelery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-jewelery
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-jewelery
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-bankrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-bankrobbery
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-bankrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
@@ -406,10 +406,10 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-garbagejob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-drugs
-    ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
+  # - action: download_github
+  #   dest: ./resources/[qb]/qb-drugs
+  #   ref: main
+  #   src: https://github.com/qbcore-framework/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-shops
