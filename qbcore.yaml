@@ -106,14 +106,19 @@ tasks:
 
     # MAPS
   - action: download_github
-    dest: ./resources/[defaultmaps]/hospital_map
+    dest: ./resources/[defaultmaps]/hospital_map # Soon deprecated
     ref: main
     src: https://github.com/qbcore-framework/hospital_map
 
   - action: download_github
     dest: ./resources/[defaultmaps]/dealer_map
     ref: main
-    src: https://github.com/qbcore-framework/dealer_map
+    src: https://github.com/Raccoons-V/dealer_map
+
+  - action: download_github
+    dest: ./resources/[defaultmaps]/moto_dealer_map
+    ref: main
+    src: https://github.com/Raccoons-V/moto_dealer_map
 
   - action: download_github
     dest: ./resources/[defaultmaps]/[prison_map]
@@ -159,18 +164,18 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehicleshop
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-houserobbery
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-houserobbery
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-prison
-    ref: main
-    src: https://github.com/qbcore-framework/qb-prison
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-prison
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-prison
 
   - action: download_github
     dest: ./resources/[qb]/qb-hud
@@ -182,15 +187,15 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-management
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-weed
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weed
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-weed
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-weed
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-lapraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-lapraces
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-lapraces
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
     dest: ./resources/[qb]/qb-inventory
@@ -220,10 +225,10 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-radialmenu
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/qbcore-framework/qb-crypto
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-crypto
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-crypto
 
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
@@ -235,10 +240,10 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-policejob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-traphouse
-    ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-traphouse
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-traphouse
 
   - action: download_github
     dest: ./resources/[qb]/qb-apartments
@@ -250,10 +255,10 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-mechanicjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-mechanicjob
+#  - action: download_github
+#    dest: ./resources/[qb]/qb-mechanicjob
+#    ref: main
+#    src: https://github.com/qbcore-framework/qb-mechanicjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-phone
