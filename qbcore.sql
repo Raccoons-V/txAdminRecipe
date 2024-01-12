@@ -47,31 +47,31 @@ CREATE TABLE IF NOT EXISTS `bans` (
   KEY `ip` (`ip`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE IF NOT EXISTS `crypto` (
-  `crypto` varchar(50) NOT NULL DEFAULT 'qbit',
-  `worth` int(11) NOT NULL DEFAULT 0,
-  `history` text DEFAULT NULL,
-  PRIMARY KEY (`crypto`)
-) ENGINE=InnoDB;
+-- CREATE TABLE IF NOT EXISTS `crypto` (
+--   `crypto` varchar(50) NOT NULL DEFAULT 'qbit',
+--   `worth` int(11) NOT NULL DEFAULT 0,
+--   `history` text DEFAULT NULL,
+--   PRIMARY KEY (`crypto`)
+-- ) ENGINE=InnoDB;
 
-CREATE TABLE IF NOT EXISTS `crypto_transactions` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `citizenid` varchar(11) DEFAULT NULL,
-  `title` varchar(50) DEFAULT NULL,
-  `message` varchar(50) DEFAULT NULL,
-  `date` timestamp NULL DEFAULT current_timestamp(),
-  PRIMARY KEY (`id`),
-  KEY `citizenid` (`citizenid`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+-- CREATE TABLE IF NOT EXISTS `crypto_transactions` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `citizenid` varchar(11) DEFAULT NULL,
+--   `title` varchar(50) DEFAULT NULL,
+--   `message` varchar(50) DEFAULT NULL,
+--   `date` timestamp NULL DEFAULT current_timestamp(),
+--   PRIMARY KEY (`id`),
+--   KEY `citizenid` (`citizenid`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE IF NOT EXISTS `dealers` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL DEFAULT '0',
-  `coords` longtext DEFAULT NULL,
-  `time` longtext DEFAULT NULL,
-  `createdby` varchar(50) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+-- CREATE TABLE IF NOT EXISTS `dealers` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `name` varchar(50) NOT NULL DEFAULT '0',
+--   `coords` longtext DEFAULT NULL,
+--   `time` longtext DEFAULT NULL,
+--   `createdby` varchar(50) NOT NULL DEFAULT '0',
+--   PRIMARY KEY (`id`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `houselocations` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -118,17 +118,17 @@ CREATE TABLE IF NOT EXISTS `house_plants` (
   KEY `plantid` (`plantid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE IF NOT EXISTS `lapraces` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) DEFAULT NULL,
-  `checkpoints` text DEFAULT NULL,
-  `records` text DEFAULT NULL,
-  `creator` varchar(50) DEFAULT NULL,
-  `distance` int(11) DEFAULT NULL,
-  `raceid` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `raceid` (`raceid`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+-- CREATE TABLE IF NOT EXISTS `lapraces` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `name` varchar(50) DEFAULT NULL,
+--   `checkpoints` text DEFAULT NULL,
+--   `records` text DEFAULT NULL,
+--   `creator` varchar(50) DEFAULT NULL,
+--   `distance` int(11) DEFAULT NULL,
+--   `raceid` varchar(50) DEFAULT NULL,
+--   PRIMARY KEY (`id`),
+--   KEY `raceid` (`raceid`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `occasion_vehicles` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
