@@ -130,7 +130,7 @@ tasks:
 
   # Downloading QBCore resources
   - action: download_github
-    dest: ./resources/[r5]/qb-core
+    dest: ./resources/[r5]/r5-core
     ref: main
     src: https://github.com/qbcore-framework/qb-core
 
